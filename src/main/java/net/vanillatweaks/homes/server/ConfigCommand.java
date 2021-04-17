@@ -17,7 +17,7 @@ import com.mojang.brigadier.CommandDispatcher;
 
 public class ConfigCommand {
 	public static void register(CommandDispatcher<ServerCommandSource> dispatcher) {
-		dispatcher.register(CommandManager.literal("config")
+		dispatcher.register(CommandManager.literal("config").requires(s -> s.hasPermissionLevel(2))
 				.then(CommandManager.argument("arguments", StringArgumentType.greedyString()).executes(ConfigCommand::execute))
 				.executes(ConfigCommand::execute));
 	}
@@ -38,6 +38,7 @@ public class ConfigCommand {
 		{
 			java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 			$_dependencies.put("entity", entity);
+			$_dependencies.put("cmdparams", cmdparams);
 			ConfigCommandExecutedProcedure.executeProcedure($_dependencies);
 		}
 		return 0;

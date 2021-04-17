@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "homes",
+  "version": "1.4.1",
+  "name": "Improved VanillaTweaks Homes",
+  "contact": {
+    "sources": "https://github.com/IllagerCaptain/improved-vanillatweaks-homes"
+  },
+  "license": "GNU Affero General Public License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.vanillatweaks.homes.HomesMod"
+    ],
+    "client": [
+      "net.vanillatweaks.homes.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.9.0",
+    "fabric": "*"
+  }
+}

@@ -1,4 +1,5 @@
 Fabric Mod for Minecraft to make the Vanilla Tweaks Homes Datapack better by making it have actual commands instead of <code>/trigger</code>.
+<br>
 <b>Datapack must be installed for this to work. It may be downloaded <a href="https://vanillatweaks.net/share#LyWCd6" target="_blank">here</a>.</b>
 
 <h1>Commands</h1>

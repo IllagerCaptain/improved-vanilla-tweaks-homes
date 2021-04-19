@@ -12,4 +12,4 @@
 
 ## Reporting a Vulnerability
 
-If you find any security vulnerabilities, please report them in <a href="https://github.com/IllagerCaptain/improved-vanilla-tweaks-homes/security/advisories/new">here</a>. It will be fixed as soon as possible.
+If you find any security vulnerabilities, please report them <a href="https://github.com/IllagerCaptain/improved-vanilla-tweaks-homes/security/advisories/new">here</a>. It will be fixed as soon as possible.

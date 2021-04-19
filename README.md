@@ -1,4 +1,4 @@
-<b>Datapack must be installed for this to work. It may be downloaded <a href="https://vanillatweaks.net/share#LyWCd6" target="_blank">here</a>.</b>
+<b>Datapack must be installed for this to work. It may be downloaded <a href="https://vanillatweaks.net/share#LyWCd6" target="_blank">here</a>. Note as of the latest pre-release, the datapack is integrated into the mod.</b>
 <br>
 <br>
 <a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" rel="nofollow"><strong><img src="https://i.imgur.com/Ol1Tcf8.png" alt="" width="149" height="50"></strong></a>
